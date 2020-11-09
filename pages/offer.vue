@@ -26,30 +26,17 @@ export default {};
 </script>
 
 <style scoped>
-.wrapper::before {
+.wrapper::after {
   content: "";
   position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: #000;
+  top: 10%;
+  left: 10%;
+  width: 80%;
+  height: 80%;
+  background-image: url("../assets/logo.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  opacity: 0.05;
   z-index: -1;
-}
-
-.wrapper {
-  padding-top: 10vh;
-}
-
-h1 {
-  margin: 5vh;
-}
-p {
-  margin: 5px;
-}
-@media (max-width: 800px) {
-  .wrapper {
-    width: 90%;
-  }
 }
 </style>

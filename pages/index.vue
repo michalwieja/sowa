@@ -12,7 +12,7 @@ export default {};
 
 <style scoped>
 .wrapper {
-  padding-top: 25vh;
+  padding-top: 55vh;
 }
 .wrapper::before {
   content: "";
@@ -26,20 +26,7 @@ export default {};
   background-position: top;
   z-index: -1;
 }
-h2 {
-  font-size: 5vh;
-}
-h1 {
-  font-size: 7vh;
-}
-@media (max-width: 800px) {
-  h2 {
-    font-size: 3vh;
-  }
-  h1 {
-    font-size: 5vh;
-  }
-}
+
 @media (max-width: 600px) {
   h2 {
     font-size: 3vh;
@@ -47,13 +34,5 @@ h1 {
   h1 {
     font-size: 3vh;
   }
-}
-button {
-  width: 20%;
-  border: none;
-  background: var(--gold);
-  height: 30px;
-  border-radius: 10px;
-  margin-top: 20px;
 }
 </style>

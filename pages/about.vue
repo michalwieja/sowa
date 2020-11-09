@@ -1,24 +1,26 @@
 <template>
   <div class="wrapper">
-    <h1>tutaj bedzoe o mnie</h1>
+    <h1>O mnie</h1>
     <p>
-      O mnie - ukończony Uniwersytet Ekonomiczny na wydziale Finanse i
-      Rachunkowość ze specjalnością Rachunkowość. - 12 lat doświadczenia w
-      księgowości, prowadzenie księgowości w różnorodnych firmach(osoby
-      fizyczne, spółki osobowe, spółki kapitałowe) - Certyfikat Księgowy
-      Ministra Finansów nr 46638/2010 - obowiązkowe ubezpieczenie oc- odnawiane
-      co roku. - zawsze na bieżąco: systematyczne uczestnictwo w szkoleniach i
-      aktualizowanie wiedzy, - indywidualne podejście do każdego klienta -
-      profesjonalność i sumienność 🤓 - stała współpraca z Kancelarią adwokata
-      Tomasza Hartleba : http://www.kancelaria-th.pl/
+      Ukończony Uniwersytet Ekonomiczny na wydziale Finanse i Rachunkowość ze
+      specjalnością Rachunkowość.
     </p>
     <p>
-      Godziny pracy: elastyczne godziny pracy, możliwość spotkania w godzinach
-      dogodnych dla klienta, dojazd do klienta, kontakt zdalny
+      12 lat doświadczenia w księgowości, prowadzenie księgowości w różnorodnych
+      firmach(osoby fizyczne, spółki osobowe, spółki kapitałowe)
     </p>
+
+    <p>Certyfikat Księgowy Ministra Finansów nr 46638/2010</p>
+    <p>Obowiązkowe ubezpieczenie OC - odnawiane co roku.</p>
     <p>
-      Dane firmy Biuro Rachunkowe Natalia Sowa-Stefańska ul. Dulęby 5/601 40-833
-      Katowice tel: 512859845 mail: nsowastefanska@gmail.com
+      Zawsze na bieżąco: systematyczne uczestnictwo w szkoleniach i
+      aktualizowanie wiedzy
+    </p>
+    <p>indywidualne podejście do każdego klienta</p>
+    <p>profesjonalność i sumienność</p>
+    <p>
+      stała współpraca z Kancelarią adwokata Tomasza Hartleba :
+      http://www.kancelaria-th.pl/
     </p>
   </div>
 </template>
@@ -29,30 +31,17 @@ export default {};
 
 
 <style scoped>
-.wrapper::before {
+.wrapper::after {
   content: "";
   position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: #000;
+  top: 10%;
+  left: 10%;
+  width: 80%;
+  height: 80%;
+  background-image: url("../assets/logo.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  opacity: 0.05;
   z-index: -1;
-}
-
-.wrapper {
-  padding-top: 10vh;
-}
-
-h1 {
-  margin: 5vh;
-}
-p {
-  margin: 5px;
-}
-@media (max-width: 800px) {
-  .wrapper {
-    width: 90%;
-  }
 }
 </style>
