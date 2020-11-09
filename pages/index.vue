@@ -1,8 +1,8 @@
 <template>
   <div class="wrapper">
-    <h2>Natalia Sowa-Stefańska</h2>
-    <h1>Księgowa, której szukasz</h1>
-    <button>WIĘCEJ</button>
+    <h2 class="hero">Natalia Sowa-Stefańska</h2>
+    <h1 class="hero">Księgowa, której szukasz</h1>
+    <button><NuxtLink class="link" to="/offer">WIĘCEJ</NuxtLink></button>
   </div>
 </template>
 
@@ -26,13 +26,15 @@ export default {};
   background-position: top;
   z-index: -1;
 }
+a.link {
+  color: var(--gold);
+  text-decoration: none;
+}
 
-@media (max-width: 600px) {
-  h2 {
-    font-size: 3vh;
-  }
-  h1 {
-    font-size: 3vh;
-  }
+h1.title {
+  font-size: 5vh;
+}
+h2.title {
+  font-size: 5vh;
 }
 </style>

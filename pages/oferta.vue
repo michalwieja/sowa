@@ -18,11 +18,11 @@
       </p>
       <p>Zapraszam bla bla do kontaktu jestem SUPER!!</p>
     </div>
+    <Footer />
   </div>
 </template>
 
 <script>
-export default {};
 </script>
 
 <style scoped>

@@ -6,10 +6,12 @@
 </template>
 <script>
 import Header from "../components/Header";
+import Footer from "../components/Footer";
 
 export default {
   components: {
     Header,
+    Footer,
   },
 };
 </script>
@@ -56,14 +58,9 @@ html {
   text-align: center;
   padding-top: 10vh;
 }
-
-h1 {
-  font-size: 7vh;
-
-  margin: 5vh;
-}
+h1,
 h2 {
-  font-size: 5vh;
+  margin: 10px;
 }
 p {
   margin: 5px;
@@ -82,12 +79,12 @@ button {
   .wrapper {
     width: 90%;
   }
-  h2 {
-    font-size: 3vh;
-  }
-  h1 {
-    font-size: 5vh;
-  }
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
 }
 
 @keyframes navLinkFade {
