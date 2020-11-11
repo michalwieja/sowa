@@ -1,6 +1,5 @@
 <template>
   <div class="site">
-    <Header />
     <Nuxt />
   </div>
 </template>
@@ -17,7 +16,7 @@ export default {
 </script>
 
 
-<style>
+<style lang='scss'>
 :root {
   --gold: #c3a26f;
 }
@@ -34,11 +33,6 @@ html {
   color: white;
   background-color: #000;
 }
-.site {
-  position: relative;
-  overflow: hidden;
-}
-
 *,
 *::before,
 *::after {
@@ -46,57 +40,50 @@ html {
   margin: 0;
   padding: 0;
 }
-
+.site {
+  position: relative;
+  overflow: hidden;
+}
 .wrapper {
-  min-height: 100vh;
-  max-width: 1000px;
-  margin: 0 auto;
+  height: 88vh;
   color: var(--gold);
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
   text-align: center;
-  padding-top: 10vh;
+  @media (max-width: 1200px) {
+    width: 95%;
+    margin: 0 auto;
+  }
 }
-h1,
-h2 {
-  margin: 10px;
-}
-p {
-  margin: 5px;
+.wrapper::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: top;
+  z-index: -1;
 }
 button {
-  width: 25%;
-  border: 2px solid var(--gold);
-  background: transparent;
-  color: var(--gold);
-  height: 35px;
-  font-size: 18px;
+  width: 200px;
+  height: 40px;
+  border: 3px solid var(--gold);
+  background: none;
   border-radius: 10px;
-  margin-top: 20px;
 }
-@media (max-width: 800px) {
-  .wrapper {
-    width: 90%;
-  }
+a.link {
+  color: var(--gold);
+  text-decoration: none;
 }
 
 footer {
   position: absolute;
   bottom: 0;
   width: 100%;
-}
-
-@keyframes navLinkFade {
-  from {
-    opacity: 0;
-    transform: translateX(50px);
-  }
-
-  to {
-    opacity: 1;
-    transform: translateX(0);
-  }
 }
 </style>
 

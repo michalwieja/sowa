@@ -1,5 +1,6 @@
 <template>
   <div>
+    <Header />
     <div class="wrapper">
       <h1>O mnie</h1>
       <p>

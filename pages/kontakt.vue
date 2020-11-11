@@ -1,5 +1,6 @@
 <template>
   <div>
+    <Header />
     <div class="wrapper">
       <h1>Godziny pracy</h1>
 

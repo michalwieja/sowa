@@ -1,5 +1,6 @@
 <template>
   <div>
+    <Header />
     <div class="wrapper offer">
       <h1>Oferta</h1>
 
@@ -26,6 +27,9 @@
 </script>
 
 <style scoped>
+.wrapper::before {
+  background: #000;
+}
 .wrapper::after {
   content: "";
   position: absolute;
