@@ -11,16 +11,20 @@
             wydziale Finanse i Rachunkowość.
           </p>
           <p>
+            <br />
             Pracę w księgowości rozpoczęłam w 2007r. Doświadczenie zdobywałam w
             biurze rachunkowym dzięki czemu mam szeroką i zróżnicowaną wiedzę w
-            zakresie podatków, ubezpieczeń spolecznych oraz spraw pracowniczych.
+            zakresie podatków, ubezpieczeń społecznych oraz spraw pracowniczych.
           </p>
-          Posiadam Certyfikat Księgowy Ministra Finansów nr 46638/2010 Wychodzę
-          z założenia, że za dobrą księgowością stoi profesjonalista: sumienny i
-          pracowity człowiek, który jest otwarty na klienta i co więcej potrafi
-          przeprowadzić go przez temat księgowości od A do Z. To ciągłe
-          zwiększanie swoich kompetencji i pogłębianie wiedzy.
           <p>
+            Posiadam Certyfikat Księgowy Ministra Finansów nr 46638/2010
+            Wychodzę z założenia, że za dobrą księgowością stoi profesjonalista:
+            sumienny i pracowity człowiek, który jest otwarty na klienta i co
+            więcej potrafi przeprowadzić go przez temat księgowości od A do Z.
+            To ciągłe zwiększanie swoich kompetencji i pogłębianie wiedzy.
+          </p>
+          <p>
+            <br />
             Prywatnie jestem żoną i mamą dwójki chłopców. Uwielbiam górskie
             wycieczki i dobrą literaturę.
           </p>
@@ -46,6 +50,7 @@
   justify-content: space-evenly;
   height: 100%;
   width: 40%;
+  padding-bottom: 20vh;
 }
 h1 {
   width: 100%;

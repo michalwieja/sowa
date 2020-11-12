@@ -16,7 +16,7 @@
           Dla Twojej wygody i bezpieczeństwa oferuję również księgowość
           zdalną(elektroniczne przekazywanie dokumentów, spotkania online).
           <br />
-          Na stałe współpracuje z kancelarią prawną Tomasza Hartleba
+          Na stałe współpracuje z kancelarią adwokacką Tomasza Hartleba
           <a href=" www.kancelaria-th.pl" rel="noopener noreferrer ">
             www.kancelaria-th.pl</a
           >
@@ -24,7 +24,8 @@
 
         <h1>DLA KOGO</h1>
         <div class="items">
-          Współpracuję z osobami fizycznymi, spółkami osobowymi i kapitałowymi.
+          Współpracuję z osobami fizycznymi prowadzącymi działalność
+          gospodarczą, spółkami osobowymi i kapitałowymi.
         </div>
         <ul class="items">
           <li>
@@ -52,9 +53,9 @@
 
 <style scoped>
 .wrapper {
-
 }
 .content {
+  padding-bottom: 10vh;
   display: flex;
   flex-direction: column;
   align-items: flex-start;

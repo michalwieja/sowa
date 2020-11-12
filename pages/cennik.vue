@@ -5,7 +5,7 @@
       <div class="content">
         <h1>Cennik</h1>
         <div class="items">
-          Współpraca z zróżnorodnymi firmi pokazała mi jak ważne jest
+          Współpraca z zróżnorodnymi firmami pokazała mi, jak ważne jest
           indywidualne podejście do każdego klienta. Każde przedsiębiorstwo jest
           inne pod względem potrzeb i oczekiwań w zakresie księgowości. Dlatego
           zapraszam do niezobowiązującego kontaktu. Przygotuję dla Ciebie
@@ -39,6 +39,7 @@
   justify-content: space-evenly;
   height: 100%;
   width: 40%;
+  padding-bottom: 30vh;
 }
 h1 {
   width: 100%;

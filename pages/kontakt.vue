@@ -49,6 +49,7 @@
   justify-content: space-evenly;
   height: 100%;
   width: 40%;
+  padding-bottom: 30vh;
 }
 h1 {
   width: 100%;
@@ -80,6 +81,7 @@ p {
 }
 .img {
   position: relative;
+  top: -100px;
 }
 .img::before {
   content: "";
