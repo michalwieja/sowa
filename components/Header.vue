@@ -18,7 +18,7 @@
       <nav class="nav">
         <div class="logo">
           <NuxtLink class="borderNone" to="/">
-            <img src="@/assets/logo.svg" alt="logo" />
+            <img src="@/assets/logo-hor.svg" alt="logo" />
           </NuxtLink>
         </div>
 
@@ -72,13 +72,13 @@ $break-large: 1200px;
 }
 header {
   width: 80%;
-  height: 11vh;
+  height: 10vh;
   margin: 0 auto;
   .top {
     display: flex;
     align-items: center;
     justify-content: flex-end;
-    margin-top: 1vh;
+    margin-top: 2vh;
     a {
       color: var(--gold);
       text-decoration: none;
@@ -94,7 +94,9 @@ header {
 
   .logo {
     img {
+      position: relative;
       height: 8vh;
+      z-index: 10000000;
     }
   }
 
