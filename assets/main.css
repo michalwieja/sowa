@@ -33,9 +33,7 @@ html {
   height: 88vh;
   color: var(--gold);
   display: flex;
-
   align-items: center;
-
   text-align: center;
   flex-direction: row;
   justify-content: space-evenly;

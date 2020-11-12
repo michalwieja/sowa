@@ -5,11 +5,16 @@
       <div class="content">
         <h1>KONTAKT</h1>
         <div class="items">
-          Pracuję stacjonarnie w swoim biurze-podepnij adres- lub mape, ale bez
-          problemu możemy spotkać się w siedzibie Twojej firmy. Nie mam
+          Pracuję stacjonarnie w swoim biurze W katowicach, ulica Dulęby 5, ale
+          bez problemu możemy spotkać się w siedzibie Twojej firmy. Nie mam
           określonych ram czasowych pracy jeśli potrzebujesz tu i teraz wsparcia
-          i porady - jestem dostępna mailowo -Podepnij maila- lub telefon
-          czonicznie - podepnij telefon-
+          i porady - jestem dostępna
+          <a
+            href="mailto:kontakt@biurosowastefanska
+"
+            >mailowo</a
+          >
+          lub <a href="tel:512859845">telefonicznie</a>
         </div>
         <h1>Godziny pracy</h1>
         <div class="items">

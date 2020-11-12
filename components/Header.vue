@@ -4,7 +4,7 @@
       <div class="mail">
         <a href="mailto:mail@mail.mail">
           <font-awesome-icon :icon="['fas', 'envelope']" />
-          <span class="desktop">kontakt@biurosowastefanska</span>
+          <span class="desktop">kontakt@biurosowastefanska.pl</span>
         </a>
       </div>
       <div class="tel">
