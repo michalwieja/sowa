@@ -2,50 +2,91 @@
   <div>
     <Header />
     <div class="wrapper">
-      <h1>O mnie</h1>
-      <p>
-        Ukończony Uniwersytet Ekonomiczny na wydziale Finanse i Rachunkowość ze
-        specjalnością Rachunkowość.
-      </p>
-      <p>
-        12 lat doświadczenia w księgowości, prowadzenie księgowości w
-        różnorodnych firmach(osoby fizyczne, spółki osobowe, spółki kapitałowe)
-      </p>
-
-      <p>Certyfikat Księgowy Ministra Finansów nr 46638/2010</p>
-      <p>Obowiązkowe ubezpieczenie OC - odnawiane co roku.</p>
-      <p>
-        Zawsze na bieżąco: systematyczne uczestnictwo w szkoleniach i
-        aktualizowanie wiedzy
-      </p>
-      <p>indywidualne podejście do każdego klienta</p>
-      <p>profesjonalność i sumienność</p>
-      <p>
-        stała współpraca z Kancelarią adwokata Tomasza Hartleba :
-        http://www.kancelaria-th.pl/
-      </p>
+      <div class="content">
+        <h1>O MNIE</h1>
+        <div class="items">
+          <p>Nazywam się Natalia Sowa Stefańska.</p>
+          <p>
+            Jestem absolwentką Uniwersytetu Ekonomicznego w Katowicach na
+            wydziale Finanse i Rachunkowość.
+          </p>
+          <p>
+            Pracę w księgowości rozpoczęłam w 2007r. Doświadczenie zdobywałam w
+            biurze rachunkowym dzięki czemu mam szeroką i zróżnicowaną wiedzę w
+            zakresie podatków, ubezpieczeń spolecznych oraz spraw pracowniczych.
+          </p>
+          Posiadam Certyfikat Księgowy Ministra Finansów nr 46638/2010 Wychodzę
+          z założenia, że za dobrą księgowością stoi profesjonalista: sumienny i
+          pracowity człowiek, który jest otwarty na klienta i co więcej potrafi
+          przeprowadzić go przez temat księgowości od A do Z. To ciągłe
+          zwiększanie swoich kompetencji i pogłębianie wiedzy.
+          <p>
+            Prywatnie jestem żoną i mamą dwójki chłopców. Uwielbiam górskie
+            wycieczki i dobrą literaturę.
+          </p>
+        </div>
+      </div>
+      <div class="img">
+        <img src="@/assets/natalia.jpg" alt="logo" />
+        <div class="block"></div>
+      </div>
     </div>
     <Footer />
   </div>
 </template>
 
 <script>
-export default {};
 </script>
 
-
 <style scoped>
-.wrapper::after {
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-evenly;
+  height: 100%;
+  width: 40%;
+}
+h1 {
+  width: 100%;
+  color: #000;
+  position: relative;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+h1::before {
   content: "";
   position: absolute;
-  top: 10%;
-  left: 10%;
-  width: 80%;
-  height: 80%;
-  background-image: url("../assets/logo.svg");
-  background-size: contain;
-  background-repeat: no-repeat;
-  opacity: 0.05;
+  top: 0;
+  left: -25%;
+  height: 100%;
+  width: 100%;
+  background-color: var(--gold);
+  z-index: -1;
+}
+.items {
+  width: 75%;
+  text-align: left;
+}
+p {
+  font-size: 18px;
+}
+.wrapper::before {
+  background: #000;
+}
+.img {
+  position: relative;
+}
+.img::before {
+  content: "";
+  position: absolute;
+
+  top: 5%;
+  left: 5%;
+  height: 100%;
+  width: 100%;
+  background-color: var(--gold);
   z-index: -1;
 }
 </style>

@@ -13,7 +13,11 @@
 export default {};
 </script>
 
-<style>
+<style scoped>
+.wrapper {
+  flex-direction: column;
+  justify-content: center;
+}
 .title {
   margin: 30vh 0 5vh 0;
   font-size: 40px;

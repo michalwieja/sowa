@@ -3,30 +3,25 @@
     <Header />
     <div class="wrapper">
       <div class="content">
-        <h1>KONTAKT</h1>
+        <h1>Cennik</h1>
         <div class="items">
-          Pracuję stacjonarnie w swoim biurze-podepnij adres- lub mape, ale bez
-          problemu możemy spotkać się w siedzibie Twojej firmy. Nie mam
-          określonych ram czasowych pracy jeśli potrzebujesz tu i teraz wsparcia
-          i porady - jestem dostępna mailowo -Podepnij maila- lub telefon
-          czonicznie - podepnij telefon-
+          Współpraca z zróżnorodnymi firmi pokazała mi jak ważne jest
+          indywidualne podejście do każdego klienta. Każde przedsiębiorstwo jest
+          inne pod względem potrzeb i oczekiwań w zakresie księgowości. Dlatego
+          zapraszam do niezobowiązującego kontaktu. Przygotuję dla Ciebie
+          indywidualną wycenę na podstawie informacji takich jak:
         </div>
-        <h1>Godziny pracy</h1>
-        <div class="items">
-          Elastyczne godziny pracy, możliwość spotkania w godzinach dogodnych
-          dla klienta, dojazd do klienta, kontakt zdalny
-        </div>
+        <ul class="items">
+          <li>forma działalności jaką prowadzisz</li>
+          <li>branża jaką się zajmujesz</li>
+          <li>w przybliżeniu ilość dokumentów miesięcznie</li>
+          <li>liczba zatrudnionych pracowników</li>
+          <li>liczba umów cywilnoprawnych</li>
+        </ul>
       </div>
       <div class="img">
-        <iframe
-          width="600"
-          height="250"
-          frameborder="0"
-          src="https://www.google.com/maps/embed/v1/place?q=ul.%20Dul%C4%99by%205%2F601%2040-833%20Katowice&amp;key=AIzaSyDw1zhsW5hcgQrPmCp3XrvpkMRFuKj9R-o"
-          allowfullscreen=""
-          style="border: 0"
-          data-v-9785e590=""
-        ></iframe>
+        <img src="@/assets/glasses.jpg" alt="logo" />
+        <div class="block"></div>
       </div>
     </div>
     <Footer />

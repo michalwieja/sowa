@@ -25,6 +25,7 @@
         <ul class="nav__links">
           <li><NuxtLink class="nav__link" to="/">Start</NuxtLink></li>
           <li><NuxtLink class="nav__link" to="/oferta">Oferta</NuxtLink></li>
+          <li><NuxtLink class="nav__link" to="/cennik">Cennik</NuxtLink></li>
           <li><NuxtLink class="nav__link" to="/omnie">O mnie</NuxtLink></li>
           <li><NuxtLink class="nav__link" to="/kontakt">Kontakt</NuxtLink></li>
         </ul>

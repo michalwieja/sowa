@@ -4,24 +4,39 @@
     <div class="wrapper">
       <div class="content">
         <h1>Oferta</h1>
-        <div class="items">
-          <p>podatkowa księga przychodów i rozchodów</p>
-          <p>ewidencja dla celów zryczałtowanego podatku dochodowego</p>
-          <p>księgi handlowe</p>
-          <p>obsługa kadrowo-płacowa</p>
-          <p>rozliczenia roczne</p>
-          <p>sprawozdania finansowe</p>
-        </div>
+        <ul class="items">
+          <li>podatkowa księga przychodów i rozchodów</li>
+          <li>ewidencja dla celów zryczałtowanego podatku dochodowego</li>
+          <li>księgi handlowe</li>
+          <li>obsługa kadrowo-płacowa</li>
+          <li>rozliczenia roczne</li>
+          <li>sprawozdania finansowe</li>
+        </ul>
+        <small class="items">
+          Dla Twojej wygody i bezpieczeństwa oferuję również księgowość
+          zdalną(elektroniczne przekazywanie dokumentów, spotkania online).
+          <br />
+          Na stałe współpracuje z kancelarią prawną Tomasza Hartleba
+          <a href=" www.kancelaria-th.pl" rel="noopener noreferrer ">
+            www.kancelaria-th.pl</a
+          >
+        </small>
 
-        <h1>Cennik</h1>
+        <h1>DLA KOGO</h1>
         <div class="items">
-          <p>Ceny ustalane indywidualnie dla każdego klienta.</p>
-          <p>
-            Zależą min od: formy działalności, branży, ilości dokumentów, liczby
-            pracowników i indywidualnych potrzeb klienta.
-          </p>
-          <p>Zapraszam bla bla do kontaktu jestem SUPER!!</p>
+          Współpracuję z osobami fizycznymi, spółkami osobowymi i kapitałowymi.
         </div>
+        <ul class="items">
+          <li>
+            Otwierasz firmę i potrzebujesz profesjonalnego wsparcia? Możesz
+            liczyć na moją pomoc na każdym etapie.
+          </li>
+          <li>
+            Przekształcasz swoją działalność i potrzebujesz wsparcia? Mam
+            doświadczenie w tym zakresie.
+          </li>
+          <li>Stawiam na księgowośc z indywidualnym podejściem do klienta.</li>
+        </ul>
       </div>
       <div class="img">
         <img src="@/assets/cofee.jpg" alt="logo" />
@@ -37,8 +52,7 @@
 
 <style scoped>
 .wrapper {
-  flex-direction: row;
-  justify-content: space-evenly;
+
 }
 .content {
   display: flex;
@@ -68,7 +82,7 @@ h1::before {
 }
 .items {
   width: 75%;
-  text-align-last: left;
+  text-align: left;
 }
 p {
   font-size: 18px;
