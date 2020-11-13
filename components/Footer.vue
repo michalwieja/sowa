@@ -8,6 +8,10 @@ export default { name: "Footer" };
 
 <style>
 footer {
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  height: 5vh;
   display: flex;
   align-items: center;
   justify-content: center;

@@ -2,9 +2,10 @@
   <div>
     <Header />
     <div class="wrapper">
-      <!-- <h2 class="">Natalia Sowa-Stefańska</h2> -->
-      <h1 class="title">Księgowa, której szukasz</h1>
-      <button><NuxtLink class="link" to="/oferta">WIĘCEJ</NuxtLink></button>
+      <div class="content">
+        <h1 class="title">Księgowa, której szukasz</h1>
+        <NuxtLink class="link" to="/oferta"> <button>WIĘCEJ</button></NuxtLink>
+      </div>
     </div>
   </div>
 </template>
@@ -15,26 +16,21 @@ export default {};
 
 <style scoped lang='scss'>
 .wrapper {
-  flex-direction: column;
-  justify-content: center;
+  height: 88vh;
 }
-.title {
-  margin: 30vh 0 5vh 0;
-  font-size: 40px;
-  @media (max-width: 1023px) {
-    font-size: 32px;
+.content {
+  align-items: center;
+  justify-content: center;
+  padding-top: 20vh;
+}
+h1 {
+  color: var(--gold);
+  text-align: center;
+  &::before {
+    display: none;
   }
 }
 .wrapper::before {
   background-image: url("../assets/hero.jpg");
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-size: cover;
-  background-position: top;
-  z-index: -1;
 }
 </style>

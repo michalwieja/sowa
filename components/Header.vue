@@ -73,13 +73,13 @@ $break-large: 1200px;
 }
 header {
   width: 80%;
-  height: 10vh;
+  height: 12vh;
   margin: 0 auto;
   .top {
     display: flex;
     align-items: center;
     justify-content: flex-end;
-    margin-top: 2vh;
+    padding-top: 2vh;
     a {
       color: var(--gold);
       text-decoration: none;
@@ -96,7 +96,7 @@ header {
   .logo {
     img {
       position: relative;
-      height: 8vh;
+      height: 7vh;
       z-index: 10000000;
     }
   }
