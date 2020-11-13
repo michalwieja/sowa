@@ -13,7 +13,7 @@
 export default {};
 </script>
 
-<style scoped>
+<style scoped lang='scss'>
 .wrapper {
   flex-direction: column;
   justify-content: center;
@@ -21,6 +21,9 @@ export default {};
 .title {
   margin: 30vh 0 5vh 0;
   font-size: 40px;
+  @media (max-width: 1023px) {
+    font-size: 32px;
+  }
 }
 .wrapper::before {
   background-image: url("../assets/hero.jpg");

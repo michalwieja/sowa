@@ -1,16 +1,16 @@
 <template>
   <header>
     <div class="top">
-      <div class="mail">
+      <div class="mail desktop">
         <a href="mailto:mail@mail.mail">
           <font-awesome-icon :icon="['fas', 'envelope']" />
-          <span class="desktop">kontakt@biurosowastefanska.pl</span>
+          <span>kontakt@biurosowastefanska.pl</span>
         </a>
       </div>
       <div class="tel">
         <a href="tel:512859845">
           <font-awesome-icon :icon="['fas', 'mobile-alt']" />
-          <span class="desktop">512 859 845</span>
+          <span>512 859 845</span>
         </a>
       </div>
     </div>
@@ -107,14 +107,14 @@ header {
     justify-content: space-between;
     list-style: none;
 
-    @media screen and (max-width: $break-small) {
+    @media screen and (max-width: $break-large) {
       position: absolute;
       justify-content: space-evenly;
 
       background-color: black;
       right: 0;
-      height: 88vh;
-      top: 12vh;
+      height: 85vh;
+      top: 15vh;
       display: flex;
       flex-direction: column;
       align-items: center;
@@ -130,7 +130,7 @@ header {
     text-transform: uppercase;
     letter-spacing: 2px;
     color: var(--gold);
-    @media screen and (max-width: $break-small) {
+    @media screen and (max-width: $break-large) {
       // opacity: 0;
     }
   }
@@ -139,7 +139,7 @@ header {
     display: none;
     cursor: pointer;
 
-    @media screen and (max-width: $break-small) {
+    @media screen and (max-width: $break-large) {
       display: block;
     }
 

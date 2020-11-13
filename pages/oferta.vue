@@ -39,7 +39,7 @@
           <li>Stawiam na księgowośc z indywidualnym podejściem do klienta.</li>
         </ul>
       </div>
-      <div class="img">
+      <div class="img desktop">
         <img src="@/assets/cofee.jpg" alt="logo" />
         <div class="block"></div>
       </div>
@@ -51,9 +51,7 @@
 <script>
 </script>
 
-<style scoped>
-.wrapper {
-}
+<style scoped lang='scss'>
 .content {
   padding-bottom: 10vh;
   display: flex;
@@ -105,4 +103,28 @@ p {
   background-color: var(--gold);
   z-index: -1;
 }
+
+@media (max-width: 1200px) {
+  .wrapper {
+    height: auto;
+    width: 100%;
+  }
+  .content {
+    padding: 10vh 0;
+    width: 100%;
+  }
+  h1 {
+    font-size: 24px;
+  }
+
+  .items {
+    width: 90%;
+    text-align: left;
+    margin: 25px;
+  }
+
+  .img {
+    display: none;
+  }
+} ;
 </style>

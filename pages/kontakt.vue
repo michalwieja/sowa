@@ -41,7 +41,7 @@
 <script>
 </script>
 
-<style scoped>
+<style scoped lang='scss'>
 .content {
   display: flex;
   flex-direction: column;
@@ -94,4 +94,37 @@ p {
   background-color: var(--gold);
   z-index: -1;
 }
+
+@media (max-width: 1200px) {
+  .wrapper {
+    height: auto;
+    width: 100%;
+    flex-direction: column;
+  }
+  .content {
+    padding: 10vh 0;
+    width: 100%;
+  }
+  h1 {
+    font-size: 24px;
+    &::before {
+      left: -15%;
+    }
+  }
+
+  .items {
+    width: 90%;
+    text-align: left;
+    margin: 25px;
+  }
+  .img {
+    top: 0;
+    iframe {
+      width: 100%;
+    }
+  }
+  .img::before {
+    display: none;
+  }
+} ;
 </style>
